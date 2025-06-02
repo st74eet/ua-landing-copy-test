@@ -2,7 +2,7 @@
 
 Потрібно скопіювати сайт з готового зразка. Сайти орієнтовані на українську аудиторію. 
 
-Зразок: сайт (https://genius.space/graphic-designer/webinar/howto/?utm_source=genius_space&utm_medium=mainpage&utm_campaign=upcoming_events)
+Зразок: [сайт](https://genius.space/graphic-designer/webinar/howto/?utm_source=genius_space&utm_medium=mainpage&utm_campaign=upcoming_events)
 
 Вимоги:
 
@@ -12,8 +12,10 @@
 
 Сайт потрібно завантажити на безкоштовний хостинг.
 
-Софт для копіювання сайтів (https://saveweb2zip.com/ru)
+[Софт](https://saveweb2zip.com/ru) для копіювання сайтів 
 
 Сайт не буде ніде використовуватися, це лише пробне завдання.
 
 Дедлайн: 3 дні
+
+[demo link](https://st74eet.github.io/ua-landing-copy-test/)
