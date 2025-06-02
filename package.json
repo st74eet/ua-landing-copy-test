@@ -2,7 +2,7 @@
   "name": "ua-landing-copy-test",
   "source": "src/index.html",
   "version": "1.0.0",
-  "description": "Копіювання сайту за зразком:",
+  "description": "Копіювання сайту за зразком",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
