@@ -4,7 +4,7 @@
 89C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\@mischnic133930711178053784 1
 97C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\dist\about-icon-2.fe50e362.svg133933211436231548 0
 129C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133930711200052057 0
-79C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\package.json133930717324161709 0
+79C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\package.json133933212487065066 0
 118C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\caniuse-lite\dist\unpacker\features.js133930711237204204 0
 111C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\caniuse-lite\data\regions\ZM.js133930711255515388 0
 98C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\@parcel\plugin\src133930711200663791 1
@@ -51,7 +51,7 @@
 129C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\@swc\helpers\_\_class_check_private_static_access133930711232054302 1
 95C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\globals\license133930711186642606 0
 116C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\@parcel\workers\src\web\WebWorker.js133930711213686004 0
-76C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\README.md133930884440127108 0
+76C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\README.md133933212668541145 0
 106C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\sass\types\value\list.d.ts133930717319744980 0
 114C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\node_modules\@parcel\packager-wasm\package.json133930711210482332 0
 88C:\Users\SK4RL1T\Downloads\work-test-projects\ua-landing-copy-test\src\styles\_main.scss133933177920544129 0
