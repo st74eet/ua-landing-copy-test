@@ -6,7 +6,7 @@
   "description": "Копіювання сайту за зразком",
   "scripts": {
     "start": "parcel --open",
-    "build": "parcel build",
+    "build": "parcel build src/index.html --public-url /ua-landing-copy-test/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
