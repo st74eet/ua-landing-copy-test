@@ -1,0 +1,62 @@
+.page {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden !important;
+  
+  &__body {
+    background: $bg-color;
+    color: $white;
+    margin: 0 auto;
+    min-width: $mobile-width + 20px;
+    font-family: $default-font;
+    font-size: $default-font-size;
+    line-height: 130%;
+    position: relative;
+    overflow-x: hidden !important;
+  }
+
+  &__header {
+    margin: 0 auto 80px;
+    min-width: $mobile-width;
+
+    @include on-tablet {
+      margin-bottom: 100px;
+      width: $tablet-width;
+    }
+
+    @include on-desktop {
+      margin-bottom: 150px;
+      width: $desktop-min-width;
+      box-sizing: border-box;
+    }
+  }
+
+  &__main {
+
+    > section {
+      width: $mobile-width;
+
+      @include on-tablet {
+        width: $tablet-width;
+      }
+    
+      @include on-desktop {
+        width: $desktop-min-width;
+        box-sizing: border-box;
+      }
+    }
+
+    > * {
+      margin: 0 auto;
+      margin-bottom: 80px;
+
+      @include on-tablet {
+        margin-bottom: 100px;
+      }
+    
+      @include on-desktop {
+        margin-bottom: 150px;
+      }
+    }
+  }
+}

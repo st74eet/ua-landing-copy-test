@@ -1,0 +1,46 @@
+.ticker {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  &__items {
+    display: flex;
+    align-items: center;
+    animation: move 8000ms linear infinite;
+    will-change: transform;
+    gap: 80px;
+    padding: 10px 0;
+  }
+
+  &__item {
+    font-size: 45px;
+    white-space: nowrap;
+    user-select: none;
+    line-height: 105%;
+    letter-spacing: 0.02em;
+    -webkit-text-stroke: 1px $text-style-accent;
+    -webkit-text-fill-color: $bg-color;
+    font-weight: 1000;
+
+    @include on-desktop {
+      font-size: 70px;
+    }
+
+    &::before {
+      content: '';
+      background-image: url(../../images/star-image.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 25%;
+      transform: translate(-150%);
+      width: 39px;
+      height: 37px;
+
+      @include on-desktop {
+        top: 30%;
+      }
+    }
+  }
+}

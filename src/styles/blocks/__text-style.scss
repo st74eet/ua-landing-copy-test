@@ -1,0 +1,21 @@
+.text-style {
+
+  &-accent {
+    color: $text-style-accent
+  }
+
+  &-section-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: $h3-font-size;
+    text-align: center;
+
+    @include on-tablet {
+      font-size: $h3-font-size-tablet;
+    }
+
+    @include on-desktop {
+      font-size: $h3-font-size-desctop;
+    }
+  }
+}

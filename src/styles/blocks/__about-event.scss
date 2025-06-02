@@ -1,0 +1,44 @@
+.about-event {
+  position: relative;
+
+  @include content-padding-inline;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__benefits {
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include on-tablet {
+      gap: 30px 20px;
+      margin: 50px auto 0;
+    }
+  }
+
+  &__circle {
+    top: 10%;
+
+    @include on-desktop {
+      width: 654px;
+      height: 654px;
+      top: -20%;
+    }
+
+    &--1 {
+      left: 0;
+      transform: translate(-46%, 45%);
+    }
+
+    &--2 {
+      right: 0;
+      transform: translate(44%, 45%);
+    }
+  }
+}

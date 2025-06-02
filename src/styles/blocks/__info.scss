@@ -1,0 +1,30 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 0;
+  border-radius: 8px;
+  gap: 32px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+
+    &__icon {
+      width: 20px;
+      height: 20px;
+      fill: $text-style-accent;
+      color: $text-style-accent;
+      flex-shrink: 0;
+    }
+
+    &__text {
+      margin-left: 12px;
+    }
+  }
+}

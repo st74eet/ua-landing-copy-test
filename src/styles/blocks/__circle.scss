@@ -1,0 +1,8 @@
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(219, 56, 87, 0.4) 0%, rgba(219, 56, 87, 0) 100%);
+  filter: blur(100px);
+  width: 550px;
+  height: 550px;
+}

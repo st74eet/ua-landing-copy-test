@@ -1,0 +1,157 @@
+.webinar-recording {
+  margin: 0 auto 150px;
+  width: $mobile-width;
+  position: relative;
+
+  @include page-grid;
+
+  @include on-tablet {
+    width: $tablet-width - 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    margin-top: 100px;
+  }
+
+  @include on-desktop {
+    width: $desktop-min-width;
+    margin-top: 150px;
+  }
+
+  &__img {
+    background-image: url(../../images/count-img.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    max-width: auto;
+    height: 260px;
+    grid-column: 1 / -1;
+    z-index: 2;
+
+    @include on-tablet {
+      grid-column: 7 / -1;
+      grid-row: 1 / -1;
+      width: 410px;
+      height: 410px;
+      position: absolute;
+      right: 0;
+    }
+
+    @include on-desktop {
+      width: 707px;
+      height: 707px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -20%;
+      transform: translateY(-50%);
+      width: 420px;
+      height: 420px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(219, 56, 87, 0.5) 0%, rgba(219, 56, 87, 0) 100%);
+      filter: blur(100px);
+      border-radius: 50%;
+
+      @include on-tablet {
+        right: 0;
+      }
+
+      @include on-desktop {
+        width: 637px;
+        height: 637px;
+      }
+    }
+  }
+
+  &__content {
+    padding: 30px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    grid-column: 1 / -1;
+    
+    @include on-tablet {
+      padding: 40px 30px;
+      background: none;
+      grid-column: 1 / 7;
+    }
+
+    @include on-desktop {
+      padding: 122px 87px;
+      overflow: hidden;
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 109%;
+
+    @include on-tablet {
+      font-size: 34px;
+      text-align: left;
+      text-wrap: nowrap;
+    }
+
+    @include on-desktop {
+      font-size: 52px;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 23px;
+    margin-bottom: 25px;
+    font-size: 18px;
+
+    @include on-tablet {
+      margin-bottom: 43px;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    @include on-desktop {
+      font-size: 24px;
+    }
+  }
+
+  &__button {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+
+    @include on-tablet {
+      transform: translateX(-10%);
+    }
+
+    @include on-desktop {
+      transform: translateX(-37%);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 77%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 637px;
+      height: 637px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(200, 233, 49, 0.4) 0%, rgba(53, 67, 29, 0) 100%);
+      filter: blur(100px);
+      border-radius: 50%;
+      pointer-events: none;
+
+      @include on-tablet {
+        top: -10%;
+        left: 40%;
+      }
+
+      @include on-desktop {
+        width: 637px;
+        height: 637px;
+        top: 20%;
+        left: 35%;
+      }
+    }
+  }
+}

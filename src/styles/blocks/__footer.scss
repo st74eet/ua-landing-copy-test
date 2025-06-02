@@ -1,0 +1,191 @@
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  @include content-padding-inline;
+
+  &__content {
+    padding-top: 35px;
+    font-size: 12px;
+    line-height: 130%;
+    grid-column: 1 / -1;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: $mobile-width;
+
+    @include on-tablet {
+      width: $tablet-width;
+      justify-content: space-between;
+      text-align: left;
+    }
+
+    @include on-desktop {
+      width: $desktop-min-width;
+      box-sizing: border-box;
+    }
+    
+  }
+
+  &__info {
+    margin-bottom: 20px;
+
+    @include on-tablet {
+      margin: 0;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+    justify-self: center;
+  }
+
+  &__legal-entity {
+    max-width: 210px;
+    margin-bottom: 20px;
+  }
+
+  &__socials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__menu {
+    margin: 15px auto 0;
+
+    @include on-tablet {
+      margin-top: 0;
+    }
+  }
+
+  &__contacts {
+    margin: 15px 0 auto;
+
+    @include on-tablet {
+      margin-right: 20px;
+    }
+
+    &-title {
+      display: none;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0;
+      margin-bottom: 20px;
+
+      @include on-tablet {
+        display: block;
+      }
+    }
+
+    &-list {
+      padding: 0;
+      margin: 0;
+    }
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      height: 16px;
+      margin-bottom: 10px;
+
+      @include on-tablet {
+        justify-content: flex-start;
+      }
+    }
+
+    &-image {
+      height: 16px;
+      width: 16px;
+    }
+
+    &-text {
+      font-size: 13px;
+    }
+
+    &-link {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  &__legal {
+    margin-top: 20px;
+    padding-block: 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+    @include on-tablet {
+      margin-top: 50px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 0;
+      height: 1px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    @include on-desktop {
+      display: flex;
+    }
+  }
+  
+  &__copy {
+    margin-bottom: 20px;
+    
+    @include on-tablet {
+      margin: 0;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    @include on-desktop {
+      margin: 0;
+      display: flex;
+    }
+  }
+
+  &__docs {
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    @include on-tablet {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__doc-item {
+    margin-bottom: 10px;
+
+    @include on-tablet {
+      margin-right: 10px;
+    }
+
+    @include on-desktop {
+      margin: 0 16px;
+    }
+  }
+
+  &__doc {
+    text-decoration: none;
+    color: $white;
+    width: 100%;
+  }
+}
