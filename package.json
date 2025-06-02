@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Iryna Shevkun",
